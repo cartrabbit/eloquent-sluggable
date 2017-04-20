@@ -1,0 +1,23 @@
+{
+  "name": "cartrabbit/eloquent-sluggable",
+  "description": "Easy creation of slugs for your Eloquent models in Laravel 5.",
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "slug"
+  ],
+  "homepage": "https://github.com/cartrabbit/eloquent-sluggable",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6.4 || ^7.0",
+    "illuminate/config": "^5.4",
+    "illuminate/database": "^5.4",
+    "illuminate/support": "^5.4",
+    "cocur/slugify": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cartrabbit\\EloquentSluggable\\": "src"
+    }
+  }
+}
