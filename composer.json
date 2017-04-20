@@ -1,8 +1,8 @@
 {
   "name": "cartrabbit/eloquent-sluggable",
-  "description": "Easy creation of slugs for your Eloquent models in Laravel 5.",
+  "description": "Easy creation of slugs for your Eloquent models in Cartrabbit.",
   "keywords": [
-    "laravel",
+    "cartrabbit",
     "eloquent",
     "slug"
   ],
