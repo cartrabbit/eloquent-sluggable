@@ -37,8 +37,8 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        app('config')->sluggable(require __DIR__ . '/../resources/config/sluggable.php');
 
+        app()->configure('sluggable');
         $this->app->singleton(SluggableObserver::class, function ($app) {
             return new SluggableObserver(new SlugService(), $app['events']);
         });
